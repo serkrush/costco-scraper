@@ -23,6 +23,7 @@ puppeteer.use(StealthPlugin());
       return items;
     });
 
+    console.log(products);
   } catch (error) {
     console.error('Error:', error);
   } finally {
